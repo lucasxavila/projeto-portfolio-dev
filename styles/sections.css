@@ -1,0 +1,77 @@
+#info {
+    padding-top: 120px;
+    background-color: var(--base-gray-300);
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 750px;
+
+    .perfil {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        .border-foto {
+            position: relative;
+            width: 90.99px; /* 87.27 + 4.36*2 */
+            height: 90.99px;
+            padding: 2.18px;
+            border: 2px solid var(--main-red);
+            border-radius: 50%;
+            box-sizing: border-box;
+            margin-bottom: 56px;
+        }
+
+        .foto-perfil {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100%;
+            display: block;
+        }
+
+        .icone-dev {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .tags {
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        max-width: 754px;
+        gap: 16px;
+        margin-bottom: 94px;
+        
+        .tag {
+            width: auto;
+            height: 40px;
+            border-radius: 999px;
+            background-color: var(--base-gray-300);
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 16px;
+        }
+    }
+
+    .vector {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+}
+
+#project {
+    min-height: 917px;
+    background-color: var(--base-gray-200);
+}
