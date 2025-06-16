@@ -68,6 +68,7 @@
 }
 
 .overflow {
-    width: 680px;
-    overflow: hidden;    
+    max-width: 680px;
+    overflow: hidden;
+    width: 100%;
 }
