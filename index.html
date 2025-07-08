@@ -12,63 +12,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="info">
-        <div class="perfil">
-            <div class="border-foto">
-                <img src="assets/images/Image_Perfil.jpg" alt="foto de perfil" class="foto-perfil">
-                <img src="assets/icons/Dev.svg" alt="ícone dev" class="icone-dev">
-            </div>
+    <header>
+        <section id="info">
+            <div class="perfil">
+                <div class="border-foto">
+                    <img src="assets/images/Image-Perfil.jpg" alt="foto de perfil" class="foto-perfil">
+                    <img src="assets/icons/Dev.svg" alt="ícone dev" class="icone-dev">
+                </div>
 
-            <div>
-                <p class="subtitle base-gray-500">Hello World! Meu nome é <span class="main-red">Martina Santos</span> e eu sou</p>
-                <h1 class="title-lg">Desenvolvedora Fullstack</h1>
-                <p class="text-sm base-gray-400 overflow">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+                <div>
+                    <p class="subtitle base-gray-500">Hello World! Meu nome é <span class="main-red">Martina Santos</span> e eu sou</p>
+                    <h1 class="title-lg">Desenvolvedora Fullstack</h1>
+                    <p class="text-sm base-gray-400 overflow">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+                </div>
             </div>
 
             <div class="tags">
-                <div class="tag github">
+                <div class="tag">
                     <img src="assets/icons/GitHub.svg" alt="ícone GitHub">
                     <p class="text-md base-gray-500">GitHub</p>
                 </div>
-
                 <div class="tag">
                     <img src="assets/icons/HTML.svg" alt="ícone HTML">
                     <p class="text-md base-gray-500">HTML</p>
                 </div>
-
                 <div class="tag">
                     <img src="assets/icons/CSS.svg" alt="ícone CSS">
                     <p class="text-md base-gray-500">CSS</p>
                 </div>
-
                 <div class="tag">
                     <img src="assets/icons/JavaScript.svg" alt="ícone JavaScript">
                     <p class="text-md base-gray-500">JavaScript</p>
                 </div>
-
                 <div class="tag">
                     <img src="assets/icons/React.svg" alt="ícone React">
                     <p class="text-md base-gray-500">React</p>
                 </div>
-                
                 <div class="tag">
                     <img src="assets/icons/Node.js.svg" alt="ícone Node.js">
                     <p class="text-md base-gray-500">Node.js</p>
                 </div>
             </div>
-
-            <div class="vector">
-                <img src="assets/icons/Vector.svg" alt="ícone vector">
-            </div>
+        </section>
+  
+        <div class="vector">
+            <img src="assets/icons/Vector.svg" alt="ícone vector">
         </div>
-    </section>
+    </header>
 
-    <section id="project">
-        <div class="projects">
+    <main>
+        <div class="header">
             <p class="subtitle main-red">Meu trabalho</p>
             <h2 class="title-md">Veja os projetos em destaque</h2>
         </div>
-        <div class="grid-cols-3">
+        
+        <section id="project" class="grid-cols-3">
             <article>
                 <img src="assets/images/Thumbnail_Project-01.png" alt="projeto travelgram">
                 <h3 class="title-sm">Travelgram</h3>
@@ -104,11 +102,68 @@
                 <h3 class="title-sm">Página de turismo</h3>
                 <p class="text-sm base-gray-500">Página com as principais informações para quem quer viajar para Busan</p>
             </article>
+        </section>
+    </main>
+
+    <aside>
+        <div class="header">
+            <p class="subtitle main-red">Meus serviços</p>
+            <h2 class="title-md">Como posso ajudar o seu negócio</h2>
         </div>
-    </section>
+        
+        <section id="services" class="grid-cols-3">
+            <div>
+                <img src="assets/icons/Devices.svg" alt="Devices">
+                <h3 class="title-sm">Websites e Aplicativos</h3>
+                <p class="text-sm base-gray-500">Desenvolvimento de interfaces</p>
+            </div>
 
-    <section id="services">
+            <div>
+                <img src="assets/icons/HardDrives.svg" alt="Hard Drives">
+                <h3 class="title-sm">API e banco de dados</h3>
+                <p class="text-sm base-gray-500">Criação de serviços do sistema </p>
+            </div>
 
-    </section>
+            <div>
+                <img src="assets/icons/Infinity.svg" alt="Infinity">
+                <h3 class="title-sm">DevOps</h3>
+                <p class="text-sm base-gray-500">Gestão e infraestrutura da aplicação</p>
+            </div>
+        </section>
+    </aside>
+
+    <footer>
+        <div class="header">
+            <p class="subtitle main-purple">Contato</p>
+            <h2 class="title-md">Gostou do meu trabalho?</h2>
+            <p class="text-md base-gray-500">Entre em contato ou acompanhe as minhas redes sociais!</p>
+        </div>
+
+        <section class="links">
+            <div>
+                <img src="assets/icons/LinkedinLogo.svg" alt="Linkedin Logo">
+                <p class="text-md base-gray-500">Linkedin</p>
+                <img src="assets/icons/ArrowUpRight.svg" alt="Arrow Up Right">
+            </div>
+
+            <div>
+                <img src="assets/icons/InstagramLogo.svg" alt="Instagram Logo">
+                <p class="text-md base-gray-500">Instagram</p>
+                <img src="assets/icons/ArrowUpRight.svg" alt="Arrow Up Right">
+            </div>
+
+            <div>
+                <img src="assets/icons/GithubLogo.svg" alt="GitHub Logo">
+                <p class="text-md base-gray-500">GitHub</p>
+                <img src="assets/icons/ArrowUpRight.svg" alt="Arrow Up Right">
+            </div>
+
+            <div>
+                <img src="assets/icons/EnvelopeSimple.svg" alt="Email Logo">
+                <p class="text-md base-gray-500">E-mail</p>
+                <img src="assets/icons/ArrowUpRight.svg" alt="Arrow Up Right">
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

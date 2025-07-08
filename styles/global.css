@@ -31,8 +31,37 @@
     --text-sm: 14px/140% var(--font-family-maven);
 }
 
+header {
+    height: 750px;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main {
+    height: 917px;
+    background-color: var(--base-gray-200);
+}
+
 img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+aside {
+    height: 480px;
+    background-color: var(--base-gray-100);
+}
+
+footer {
+    height: 787px;
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }

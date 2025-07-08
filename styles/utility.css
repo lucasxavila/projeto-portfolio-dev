@@ -1,7 +1,6 @@
 .title-lg {
     font: var(--h1);
     color: var(--base-gray-600);
-    margin-bottom: 20px;
 }
 
 .title-md {
@@ -16,7 +15,6 @@
 
 .subtitle {
     font: var(--subtitle);
-    margin-bottom: 8px;
 }
 
 .text-md {
