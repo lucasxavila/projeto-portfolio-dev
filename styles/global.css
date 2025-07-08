@@ -43,7 +43,7 @@ header {
 }
 
 main {
-    height: 917px;
+    min-height: 917px;
     background-color: var(--base-gray-200);
     padding: 72px 120px 144px 120px;
 }
