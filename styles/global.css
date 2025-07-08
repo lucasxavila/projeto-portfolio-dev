@@ -45,6 +45,7 @@ header {
 main {
     height: 917px;
     background-color: var(--base-gray-200);
+    padding: 72px 120px 144px 120px;
 }
 
 img {
@@ -56,6 +57,7 @@ img {
 aside {
     height: 480px;
     background-color: var(--base-gray-100);
+    padding: 88px 120px 88px;
 }
 
 footer {
@@ -64,4 +66,5 @@ footer {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 128px 120px 200px;
 }
