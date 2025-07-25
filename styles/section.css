@@ -68,7 +68,13 @@
   & article {
     background-color: var(--gray-300);
     border-radius: .75rem;
+    border: 1.5px solid transparent;
     padding: .75rem;
+
+    &:hover {
+      cursor: pointer;
+      border-color: var(--gray-400);
+    }
 
     & img {
       width: 100%;
