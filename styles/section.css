@@ -1,0 +1,59 @@
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 7.5rem;
+
+  & .foto-perfil {
+    position: relative;
+
+    & img:first-child {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    & .icon-code {
+    position: absolute;
+    top: 4.2rem;
+    left: 4.2rem;
+    width: 2rem;
+    height: 2rem;
+    }
+  }
+
+  & .header {
+    margin-top: 3.5rem;
+
+    & p:first-child {
+      margin-bottom: .5rem;
+    }
+
+    & h1 {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  & .tags {
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    & .tag {
+      background-color: var(--gray-300);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-radius: 999px;
+      padding: .5rem 1rem;
+    }
+  }
+
+  & .double-down {
+    margin-top: 5.875rem;
+  }
+}
