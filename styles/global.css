@@ -41,3 +41,20 @@ header {
   background-position: center;
   background-size: 100% 100%;
 }
+
+main {
+  min-height: 917px;
+
+  background-color: var(--gray-200);
+
+  padding: 4.5rem 7.5rem 9rem;
+
+  & .header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+
+    & p {
+      margin-bottom: .5rem;
+    }
+  }
+}
