@@ -65,6 +65,10 @@
   gap: 1.5rem;
   box-sizing: border-box;
 
+  & a {
+    text-decoration: none;
+  }
+
   & article {
     background-color: var(--gray-300);
     border-radius: .75rem;
