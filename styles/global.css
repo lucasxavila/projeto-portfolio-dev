@@ -63,8 +63,26 @@ aside {
   min-height: 480px;
 
   background-color: var(--gray-100);
+
+  padding: 5.5rem 7.5rem 7.5rem;
     
     & .header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+}
+
+footer {
+  min-height: 787px;
+
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  padding: 8rem 7.5rem 12.5rem;
+
+  & .header {
     text-align: center;
     margin-bottom: 3.5rem;
   }
