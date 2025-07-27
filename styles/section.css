@@ -103,7 +103,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem0;
+  gap: 1.5rem;
 
   & .card {
     border: 2px solid;
