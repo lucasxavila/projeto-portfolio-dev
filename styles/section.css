@@ -96,3 +96,19 @@
     }
   }
 }
+
+#services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem0;
+
+  & .card {
+    border: 2px solid;
+    border-radius: .75rem;
+    border-color: var(--gray-200);
+    padding: 1.25rem;
+  } 
+}

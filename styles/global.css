@@ -58,3 +58,14 @@ main {
     }
   }
 }
+
+aside {
+  min-height: 480px;
+
+  background-color: var(--gray-100);
+    
+    & .header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+}
