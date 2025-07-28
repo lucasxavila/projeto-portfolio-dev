@@ -70,9 +70,14 @@
   }
 
   & article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
     background-color: var(--gray-300);
     border-radius: .75rem;
     border: 1.5px solid transparent;
+
     padding: .75rem;
 
     &:hover {
