@@ -1,5 +1,7 @@
 # Projeto - Portfólio Dev
 
+<img width="1916" height="986" alt="Captura de tela 2025-07-28 172649" src="https://github.com/user-attachments/assets/6c7795d7-6def-4be5-9536-bd56ff38e59c" />
+
 Este repositório contém uma **página web responsiva** que simula a interface de um portfólio de desenvolvedora fullstack, apresentando perfil, tecnologias, projetos, serviços e contatos de forma moderna e intuitiva.
 
 ## Descrição
