@@ -30,7 +30,7 @@
 }
 
 body{
-  background-color: #29292E;
+  background-color: var(--gray-200);
 }
 
 header {
